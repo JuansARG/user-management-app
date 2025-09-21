@@ -1,0 +1,14 @@
+{
+  "name": "user-management-app",
+  "private": true,
+  "scripts": {
+    "prepare": "husky"
+  },
+  "workspaces": [
+    "user-management-fe",
+    "user-management-be"
+  ],
+  "devDependencies": {
+    "husky": "^9.0.0"
+  }
+}
