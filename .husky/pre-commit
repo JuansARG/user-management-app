@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+set -e
+
+echo "[husky] Running lint-staged on frontend..."
+cd user-management-fe
+npx lint-staged
+
+echo "[husky] Running tests on frontend..."
+npm run test:ci
+cd ..
